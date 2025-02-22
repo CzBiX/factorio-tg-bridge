@@ -3,7 +3,7 @@
 {
 	"name": "factorio-tg-bridge",
   "build": {
-    "dockerfile": "Dockerfile",
+    "dockerfile": "Dockerfile"
   },
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
