@@ -1,0 +1,16 @@
+[package]
+name = "factorio-tg-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.96"
+clap = { version = "4.5.30", features = ["env", "derive"] }
+dotenv = "0.15.0"
+lazy-regex = "3.4.1"
+linemux = "0.3.0"
+rcon = { version = "0.6.0", features = ["rt-tokio"] }
+teloxide = { version = "0.13.0", features = ["rustls"], default-features = false }
+tokio = { version = "1.43.0", features = ["signal", "macros"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
